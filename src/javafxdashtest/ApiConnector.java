@@ -11,13 +11,13 @@ import org.json.simple.JSONValue;
 
 public class ApiConnector {
 
-    private final String JSONURL = "http://192.168.178.115:3001/api/meters";
-    private final String JSONURL_inverter_info = "http://192.168.178.115:3001/api/inverters";
-    private final String JSONURL_sensor_data = "http://192.168.178.115:3001/api/meters/sensordata/";
-    private final String JSONURL_inverter_data = "http://192.168.178.115:3001/api/meters/inverterdata/";
-    private final String JSONURL_inverter_production_month = "http://192.168.178.115:3001/api/meters/inverterdata/month/";
-    private final String JSONURL_sensor_data_specific = "http://192.168.178.115:3001/api/meters/sensordata/";
-    private final String JSONURL_inverter_data_specific = "http://192.168.178.115:3001/api/meters/inverterdata/";
+    private final String JSONURL = "http://lcocalhost/api/meters";
+    private final String JSONURL_inverter_info = "http://lcocalhost/api/inverters";
+    private final String JSONURL_sensor_data = "http://lcocalhost/api/meters/sensordata/";
+    private final String JSONURL_inverter_data = "http://lcocalhost/api/meters/inverterdata/";
+    private final String JSONURL_inverter_production_month = "http://lcocalhost/api/meters/inverterdata/month/";
+    private final String JSONURL_sensor_data_specific = "http://lcocalhost/api/meters/sensordata/";
+    private final String JSONURL_inverter_data_specific = "http://lcocalhost/api/meters/inverterdata/";
     
     JSONArray jo = new JSONArray();
 
